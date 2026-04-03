@@ -37,3 +37,26 @@ UlcerBridge is a Next.js 14 full-stack medical triage demo for diabetic foot ulc
 - Green queue if priority score is 0 to 40
 - Self-care plans never auto-prescribe medication
 - Emergency warning banners appear for urgent symptom combinations
+
+## Run locally
+1. Install dependencies:
+	- npm install
+2. Start the development server:
+	- npm run dev
+3. Open http://localhost:3000
+
+## Build for production
+- npm run build
+- npm start
+
+## Mock sign-in roles
+- Patient
+- Doctor
+- Admin
+
+## Sample routes
+- /login
+- /role-selection
+- /patient/dashboard
+- /doctor/dashboard
+- /admin
